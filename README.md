@@ -4,7 +4,7 @@
 ## 使用方法
 
 ```bash
-wget https://raw.githubusercontent.com/vpsbash/Memtester/master/memtester
+wget https://cdn.jsdelivr.net/gh/vpsbash/Memtester/memtester
 chmod +x memtester
 ./memtester
 ```
