@@ -4,7 +4,7 @@
 ## 使用方法
 
 ```bash
-wget https://cdn.jsdelivr.net/gh/vpsbash/Memtester/memtester
+wget https://cdn.jsdelivr.net/gh/vpsbash/Memtester/memtester || curl -O https://cdn.jsdelivr.net/gh/vpsbash/Memtester/memtester
 chmod +x memtester
 ./memtester
 ```
