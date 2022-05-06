@@ -3,20 +3,10 @@
 
 #使用
 
-CentOS / RHEL:
-
-	yum install wget -y
-    yum groupinstall "Development Tools" -y
-	wget https://raw.githubusercontent.com/FunctionClub/Memtester/master/memtester.cpp
-	gcc -l stdc++ memtester.cpp
-	./a.out
-
-Ubuntu / Debian：
-
-    apt-get update
-	apt-get install wget build-essential -y
-	wget https://raw.githubusercontent.com/FunctionClub/Memtester/master/memtester.cpp
-	gcc -l stdc++ memtester.cpp
-	./a.out
+```bash
+wget https://raw.githubusercontent.com/vpsbash/Memtester/master/memtester
+chmod +x memtester
+./memtester
+```
 
 在进程被杀死前可以测出当时最大的内存占用
