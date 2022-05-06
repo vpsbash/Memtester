@@ -15,7 +15,8 @@ int main()
     while (1)
     {
         unsigned char* leakThisMemoryPlease = (unsigned char*)malloc(1048576);
-        for (int i = 0; i < 1048576; i++)
+        int i;
+        for (i = 0; i < 1048576; i++)
             leakThisMemoryPlease[i] = i * rand();
         allocatedMB += 1;
         printf("%lld MB allocated\n", allocatedMB);
