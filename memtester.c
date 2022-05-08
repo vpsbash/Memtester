@@ -19,7 +19,7 @@ int main()
         for (i = 0; i < 1048576; i++)
             leakThisMemoryPlease[i] = i * rand();
         allocatedMB += 1;
-        printf("%lld MB allocated\n", allocatedMB);
+        printf("%ld MB allocated\n", allocatedMB);
         if (allocatedMB < 0)
             break;
     }
