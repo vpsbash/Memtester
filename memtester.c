@@ -10,7 +10,7 @@ int main()
     scanf("%c", &check);
     if ('y' != check && 'Y' != check)
         exit(1);
-    long long allocatedMB = 0;
+    long allocatedMB = 0;
     srand((unsigned int)time(NULL));
     while (1)
     {
